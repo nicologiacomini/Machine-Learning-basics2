@@ -1,0 +1,109 @@
+model; shuffled; kernel; n_restart_optimizer; alpha; normalize_y; r2; rmse
+RF; True; RBF(length_scale=1); 0; 1e-10; True; -7.520691152396175e-05; 0.9261379045197394
+RF; False; RBF(length_scale=1); 0; 1e-10; True; -0.00044071219743258006; 0.9967967784824641
+RF; True; RBF(length_scale=1); 0; 1e-10; False; -4.812102636497784e-05; 0.9261253627455792
+RF; False; RBF(length_scale=1); 0; 1e-10; False; -0.0002819890199234898; 0.9967177028181584
+RF; True; RBF(length_scale=1); 0; 1e-05; True; -7.520691152396175e-05; 0.9261379045197394
+RF; False; RBF(length_scale=1); 0; 1e-05; True; -0.00044071219743258006; 0.9967967784824641
+RF; True; RBF(length_scale=1); 0; 1e-05; False; -4.812102636497784e-05; 0.9261253627455792
+RF; False; RBF(length_scale=1); 0; 1e-05; False; -0.0002819890199234898; 0.9967177028181584
+RF; True; RBF(length_scale=1); 0; 0.01; True; 0.6205529577645088; 0.5704727639324917
+RF; False; RBF(length_scale=1); 0; 0.01; True; 0.3585133619616978; 0.7981871920280645
+RF; True; RBF(length_scale=1); 0; 0.01; False; 0.6167071057907403; 0.5733564636326945
+RF; False; RBF(length_scale=1); 0; 0.01; False; 0.3580570239244496; 0.7984710470607044
+RF; True; RBF(length_scale=1); 5; 1e-10; True; 0.46012404100260285; 0.6804658320727021
+RF; False; RBF(length_scale=1); 5; 1e-10; True; -0.00044071219743258006; 0.9967967784824641
+RF; True; RBF(length_scale=1); 5; 1e-10; False; -4.812102636497784e-05; 0.9261253627455792
+RF; False; RBF(length_scale=1); 5; 1e-10; False; -0.0002819890199234898; 0.9967177028181584
+RF; True; RBF(length_scale=1); 5; 1e-05; True; 0.4615508590661861; 0.6795660482767839
+RF; False; RBF(length_scale=1); 5; 1e-05; True; 0.18594114968076614; 0.8991638713384378
+RF; True; RBF(length_scale=1); 5; 1e-05; False; -4.812102636497784e-05; 0.9261253627455792
+RF; False; RBF(length_scale=1); 5; 1e-05; False; 0.18531064771032912; 0.8995120125457884
+RF; True; RBF(length_scale=1); 5; 0.01; True; 0.6205529577645088; 0.5704727639324917
+RF; False; RBF(length_scale=1); 5; 0.01; True; 0.3585133619616978; 0.7981871920280645
+RF; True; RBF(length_scale=1); 5; 0.01; False; 0.6167071057907403; 0.5733564636326945
+RF; False; RBF(length_scale=1); 5; 0.01; False; 0.3580570239244496; 0.7984710470607044
+RF; True; RBF(length_scale=1); 10; 1e-10; True; 0.460124054683252; 0.6804658234510785
+RF; False; RBF(length_scale=1); 10; 1e-10; True; 0.18451153438478896; 0.8999530615498127
+RF; True; RBF(length_scale=1); 10; 1e-10; False; 0.457736977096577; 0.6819685141971545
+RF; False; RBF(length_scale=1); 10; 1e-10; False; 0.18388212604568566; 0.9003002943624662
+RF; True; RBF(length_scale=1); 10; 1e-05; True; 0.46155085967142717; 0.6795660478948524
+RF; False; RBF(length_scale=1); 10; 1e-05; True; -0.00044071219743258006; 0.9967967784824641
+RF; True; RBF(length_scale=1); 10; 1e-05; False; 0.45911631296048416; 0.6811006119657737
+RF; False; RBF(length_scale=1); 10; 1e-05; False; -0.0002819890199234898; 0.9967177028181584
+RF; True; RBF(length_scale=1); 10; 0.01; True; 0.6205529577645088; 0.5704727639324917
+RF; False; RBF(length_scale=1); 10; 0.01; True; 0.3585133609653445; 0.7981871926479344
+RF; True; RBF(length_scale=1); 10; 0.01; False; 0.6167071057907403; 0.5733564636326945
+RF; False; RBF(length_scale=1); 10; 0.01; False; 0.3580570239244496; 0.7984710470607044
+RF; True; Matern(length_scale=1, nu=1.5); 0; 1e-10; True; 0.7413208248869168; 0.4710207747830479
+RF; False; Matern(length_scale=1, nu=1.5); 0; 1e-10; True; 0.5863326162963389; 0.6409683527860751
+RF; True; Matern(length_scale=1, nu=1.5); 0; 1e-10; False; 0.7403715222653471; 0.47188426094619673
+RF; False; Matern(length_scale=1, nu=1.5); 0; 1e-10; False; 0.5862884362992871; 0.6410025798305519
+RF; True; Matern(length_scale=1, nu=1.5); 0; 1e-05; True; 0.7413419959434184; 0.47100149953316567
+RF; False; Matern(length_scale=1, nu=1.5); 0; 1e-05; True; 0.5863524369533512; 0.6409529967699112
+RF; True; Matern(length_scale=1, nu=1.5); 0; 1e-05; False; 0.7403921707909126; 0.4718654958476013
+RF; False; Matern(length_scale=1, nu=1.5); 0; 1e-05; False; 0.5863082749168704; 0.6409872107200172
+RF; True; Matern(length_scale=1, nu=1.5); 0; 0.01; True; 0.7516203403803914; 0.4615484986332897
+RF; False; Matern(length_scale=1, nu=1.5); 0; 0.01; True; 0.5974398139760762; 0.6323046234854351
+RF; True; Matern(length_scale=1, nu=1.5); 0; 0.01; False; 0.7505270796190215; 0.4625631526353054
+RF; False; Matern(length_scale=1, nu=1.5); 0; 0.01; False; 0.5974040071567412; 0.6323327438942136
+RF; True; Matern(length_scale=1, nu=1.5); 5; 1e-10; True; 0.7413208248869168; 0.4710207747830479
+RF; False; Matern(length_scale=1, nu=1.5); 5; 1e-10; True; 0.5863326162963389; 0.6409683527860751
+RF; True; Matern(length_scale=1, nu=1.5); 5; 1e-10; False; 0.7403715204837296; 0.4718842625652743
+RF; False; Matern(length_scale=1, nu=1.5); 5; 1e-10; False; 0.5862884362992871; 0.6410025798305519
+RF; True; Matern(length_scale=1, nu=1.5); 5; 1e-05; True; 0.741341996620249; 0.47100149891693066
+RF; False; Matern(length_scale=1, nu=1.5); 5; 1e-05; True; 0.5863524378259647; 0.6409529960938475
+RF; True; Matern(length_scale=1, nu=1.5); 5; 1e-05; False; 0.7403921709385887; 0.4718654957133926
+RF; False; Matern(length_scale=1, nu=1.5); 5; 1e-05; False; 0.5863082754069326; 0.6409872103403581
+RF; True; Matern(length_scale=1, nu=1.5); 5; 0.01; True; 0.7516203403803914; 0.4615484986332897
+RF; False; Matern(length_scale=1, nu=1.5); 5; 0.01; True; 0.5974398139731638; 0.6323046234877224
+RF; True; Matern(length_scale=1, nu=1.5); 5; 0.01; False; 0.7505270796190215; 0.4625631526353054
+RF; False; Matern(length_scale=1, nu=1.5); 5; 0.01; False; 0.5974040071514295; 0.6323327438983849
+RF; True; Matern(length_scale=1, nu=1.5); 10; 1e-10; True; 0.741320825426002; 0.4710207742922463
+RF; False; Matern(length_scale=1, nu=1.5); 10; 1e-10; True; 0.5863326162122467; 0.6409683528512246
+RF; True; Matern(length_scale=1, nu=1.5); 10; 1e-10; False; 0.740371521119679; 0.47188426198734357
+RF; False; Matern(length_scale=1, nu=1.5); 10; 1e-10; False; 0.586288436802745; 0.6410025794405244
+RF; True; Matern(length_scale=1, nu=1.5); 10; 1e-05; True; 0.7413419961203852; 0.4710014993720425
+RF; False; Matern(length_scale=1, nu=1.5); 10; 1e-05; True; 0.5863524378263073; 0.640952996093582
+RF; True; Matern(length_scale=1, nu=1.5); 10; 1e-05; False; 0.7403921707684963; 0.4718654958679733
+RF; False; Matern(length_scale=1, nu=1.5); 10; 1e-05; False; 0.5863082749168704; 0.6409872107200172
+RF; True; Matern(length_scale=1, nu=1.5); 10; 0.01; True; 0.7516203420003736; 0.4615484971281335
+RF; False; Matern(length_scale=1, nu=1.5); 10; 0.01; True; 0.5974398137039348; 0.6323046236991625
+RF; True; Matern(length_scale=1, nu=1.5); 10; 0.01; False; 0.7505270796190215; 0.4625631526353054
+RF; False; Matern(length_scale=1, nu=1.5); 10; 0.01; False; 0.5974040071864488; 0.6323327438708836
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-10; True; 0.767342774253458; 0.4467016960156991
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-10; True; 0.6243051067453594; 0.6108415820609496
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-10; False; 0.7669716768137786; 0.4470578074699279
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-10; False; 0.624304336048801; 0.6108422085976316
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-05; True; 0.7673544431337963; 0.44669049375455994
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-05; True; 0.6242850352444416; 0.6108578989497937
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-05; False; 0.7669827947574515; 0.4470471426229679
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 1e-05; False; 0.6242843027051417; 0.610858494450694
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 0.01; True; 0.7718114262850732; 0.4423909924693006
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 0.01; True; 0.6196428159161518; 0.6146201002690121
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 0; 0.01; False; 0.7713075434003729; 0.4428791639912312
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 0; 0.01; False; 0.6196500796719109; 0.6146142314806802
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-10; True; 0.7673427739802833; 0.4467016962779467
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-10; True; 0.6243051126875917; 0.6108415772302178
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-10; False; 0.7669716768137786; 0.4470578074699279
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-10; False; 0.6243043447584936; 0.6108422015171028
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-05; True; 0.7673544431030672; 0.44669049378406056
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-05; True; 0.6242850407135805; 0.6108578945037813
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-05; False; 0.7669827953506356; 0.44704714205395135
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 1e-05; False; 0.624284333440011; 0.6108584694655036
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 0.01; True; 0.7718114262850732; 0.4423909924693006
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 0.01; True; 0.6196428159161518; 0.6146201002690121
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 5; 0.01; False; 0.7713075444884667; 0.44287916293764573
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 5; 0.01; False; 0.6196500796719109; 0.6146142314806802
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-10; True; 0.767342774253458; 0.4467016960156991
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-10; True; 0.6243051122671943; 0.6108415775719794
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-10; False; 0.7669716766969323; 0.4470578075820109
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-10; False; 0.6243043440415323; 0.6108422020999551
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-05; True; 0.76735444267319; 0.44669049419675294
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-05; True; 0.6242850414149643; 0.6108578939336072
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-05; False; 0.7669827947574515; 0.4470471426229679
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 1e-05; False; 0.6242843084859718; 0.6108584897513039
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 0.01; True; 0.7718114262228855; 0.44239099252958247
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 0.01; True; 0.6196427953486432; 0.6146201168865556
+RF; True; RationalQuadratic(alpha=0.1, length_scale=1); 10; 0.01; False; 0.7713075445113962; 0.44287916291544355
+RF; False; RationalQuadratic(alpha=0.1, length_scale=1); 10; 0.01; False; 0.6196500461623333; 0.6146142585550421
